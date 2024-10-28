@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: code-first-approach
+
+springdoc:
+  api-docs:
+    version: openapi_3_1
+  version: '${springdoc.version}'
+  swagger-ui:
+    use-root-path: true
+
